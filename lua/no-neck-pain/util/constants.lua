@@ -77,6 +77,11 @@ constants.INTEGRATIONS = {
         close = "AerialToggle",
         open = "AerialToggle",
     },
+    snacksPickerList = {
+        fileTypePattern = "snacks_picker_list",
+        open = "lua Snacks.explorer()",
+        close = "lua Snacks.explorer()",
+    },
 }
 
 --- Dashboards filetypes that delays the plugin enable step until next buffer entered.

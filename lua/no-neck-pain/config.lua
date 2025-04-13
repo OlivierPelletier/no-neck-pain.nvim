@@ -327,6 +327,13 @@ NoNeckPain.options = {
             ---@type string|nil
             filetype = nil,
         },
+        snacksPickerExplorer = {
+            -- The position of the tree.
+            ---@type "left"|"right"
+            position = "left",
+            -- When `true`, if the tree was opened before enabling the plugin, we will reopen it.
+            reopen = true,
+        },
     },
 }
 
